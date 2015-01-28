@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/shaioz/AFNetworking-AutoRetry'
   s.license      = 'MIT'
   s.author       = { "Shai Ohev Zion" => "github@shaioz.com" }
-  s.source       = { :git => 'https://github.com/shaioz/AFNetworking-AutoRetry.git',
+  s.source       = { :git => 'https://github.com/federicocappelli/AFNetworking-AutoRetry.git',
                      :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
   s.requires_arc = true
 
-  s.source_files = '*.{h,m}'
+  s.source_files = 'AFNetworking+AutoRetry/*.{h,m}'
 
   s.dependency 'AFNetworking', '~> 2'
   s.dependency 'ObjcAssociatedObjectHelpers'
