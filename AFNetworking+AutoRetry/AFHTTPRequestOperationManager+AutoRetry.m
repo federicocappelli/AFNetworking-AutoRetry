@@ -4,6 +4,12 @@
 #import "AFHTTPRequestOperationManager+AutoRetry.h"
 #import "ObjcAssociatedObjectHelpers.h"
 
+#ifdef LOG_LEVEL_DEF
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#import "DDLog.h"
+#define NSLog DDLogInfo
+#endif
+
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedMethodInspection"
 

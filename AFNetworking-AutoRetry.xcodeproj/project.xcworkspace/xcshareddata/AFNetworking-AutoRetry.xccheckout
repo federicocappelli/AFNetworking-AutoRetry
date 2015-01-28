@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0EEB770F-179E-4BFC-B83B-9093769CF941</string>
+	<string>5942ACA9-77FB-4E5F-8CF8-95F3C2E25F38</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AFNetworking-AutoRetry</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4D87240AC01548E74E8E977EEA902158ABCAA2EC</key>
-		<string>ssh://github.com/shaioz/AFNetworking-AutoRetry.git</string>
+		<string>https://github.com/federicocappelli/AFNetworking-AutoRetry.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AFNetworking-AutoRetry.xcworkspace</string>
+	<string>AFNetworking-AutoRetry.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4D87240AC01548E74E8E977EEA902158ABCAA2EC</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/shaioz/AFNetworking-AutoRetry.git</string>
+	<string>https://github.com/federicocappelli/AFNetworking-AutoRetry.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

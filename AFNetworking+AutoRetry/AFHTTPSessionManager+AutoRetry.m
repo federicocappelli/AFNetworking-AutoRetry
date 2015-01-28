@@ -2,10 +2,15 @@
 // Created by Shai Ohev Zion on 1/23/14.
 // Copyright (c) 2014 shaioz. All rights reserved.
 
-#import <AFNetworking+AutoRetry/AFHTTPRequestOperationManager+AutoRetry.h>
+#import "AFHTTPRequestOperationManager+AutoRetry.h"
 #import "AFHTTPSessionManager+AutoRetry.h"
 #import "ObjcAssociatedObjectHelpers.h"
 
+#ifdef LOG_LEVEL_DEF
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+    #import "DDLog.h"
+    #define NSLog DDLogInfo
+#endif
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedMethodInspection"

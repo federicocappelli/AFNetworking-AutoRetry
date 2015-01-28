@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35D93467C2F965BD855DBF6A /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D931D7B6B3A92BD95A7E6D /* AFHTTPRequestOperationManager+AutoRetry.m */; };
 		35D937741599E97E683055CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93C3CB1526F8767664F25 /* XCTest.framework */; };
-		35D937BCD901230F50B92132 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D9342A6DA4F64128E1BB78 /* AFHTTPSessionManager+AutoRetry.m */; };
 		35D93CAE56ABFA2E29A23C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93BD14242A0522AC0FE7A /* Foundation.framework */; };
 		35D93D765BB37E25F0C477E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D939A26664FAFE30C01907 /* UIKit.framework */; };
 		35D93DF0E51C7F46D8069429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93BD14242A0522AC0FE7A /* Foundation.framework */; };
 		ECAFE1AED0034D5080F67E53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135D125C62044819695FCA7 /* libPods.a */; };
+		F18024A71A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */; };
+		F18024A81A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */; };
+		F18024A91A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */; };
+		F18024AA1A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +41,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		35D931D7B6B3A92BD95A7E6D /* AFHTTPRequestOperationManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+AutoRetry.m"; sourceTree = SOURCE_ROOT; };
-		35D9342A6DA4F64128E1BB78 /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = SOURCE_ROOT; };
-		35D9343E34B4ED744C9C7A68 /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = SOURCE_ROOT; };
 		35D9383FF1FD8220D3D4A3E7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		35D938B9DE4C6674EDF61DF8 /* AFNetworking+AutoRetry.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = "AFNetworking+AutoRetry.podspec"; sourceTree = "<group>"; };
-		35D93900021E59BAF4F68B12 /* AFHTTPRequestOperationManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+AutoRetry.h"; sourceTree = SOURCE_ROOT; };
 		35D939A26664FAFE30C01907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35D93B5F475C87CD9CACC72F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		35D93BD14242A0522AC0FE7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35D93C3CB1526F8767664F25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7135D125C62044819695FCA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE48F9C09CC74C9F9A431905 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7674D3274E63CD2788FA9998 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AC50009BB495E68699572B50 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F18024A21A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+AutoRetry.h"; sourceTree = "<group>"; };
+		F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+AutoRetry.m"; sourceTree = "<group>"; };
+		F18024A41A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = "<group>"; };
+		F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,15 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35D93007FBB49E9B6A862C77 /* AFNetworking-AutoRetry */ = {
+		2F40478C8C0AD296D874D69D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35D9342A6DA4F64128E1BB78 /* AFHTTPSessionManager+AutoRetry.m */,
-				35D93900021E59BAF4F68B12 /* AFHTTPRequestOperationManager+AutoRetry.h */,
-				35D931D7B6B3A92BD95A7E6D /* AFHTTPRequestOperationManager+AutoRetry.m */,
-				35D9343E34B4ED744C9C7A68 /* AFHTTPSessionManager+AutoRetry.h */,
+				AC50009BB495E68699572B50 /* Pods.release.xcconfig */,
+				7674D3274E63CD2788FA9998 /* Pods.debug.xcconfig */,
 			);
-			path = "AFNetworking-AutoRetry";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		35D93219FD355F7D2EF130F2 /* Frameworks */ = {
@@ -108,14 +109,25 @@
 		35D93F36B199968C936F7B4B = {
 			isa = PBXGroup;
 			children = (
+				F18024A11A7932EF00FC95F7 /* AFNetworking+AutoRetry */,
 				35D93E6FB6E91AC2D2BD1D47 /* Products */,
 				35D93219FD355F7D2EF130F2 /* Frameworks */,
-				35D93007FBB49E9B6A862C77 /* AFNetworking-AutoRetry */,
 				35D93B5F475C87CD9CACC72F /* LICENSE */,
 				35D938B9DE4C6674EDF61DF8 /* AFNetworking+AutoRetry.podspec */,
 				35D9383FF1FD8220D3D4A3E7 /* Podfile */,
-				DE48F9C09CC74C9F9A431905 /* Pods.xcconfig */,
+				2F40478C8C0AD296D874D69D /* Pods */,
 			);
+			sourceTree = "<group>";
+		};
+		F18024A11A7932EF00FC95F7 /* AFNetworking+AutoRetry */ = {
+			isa = PBXGroup;
+			children = (
+				F18024A21A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.h */,
+				F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */,
+				F18024A41A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.h */,
+				F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */,
+			);
+			path = "AFNetworking+AutoRetry";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +186,6 @@
 			mainGroup = 35D93F36B199968C936F7B4B;
 			productRefGroup = 35D93E6FB6E91AC2D2BD1D47 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				35D93512DFDB6E9BC9EF7ADC /* AFNetworking-AutoRetry */,
@@ -207,7 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8BDE9318D774086A9BBD725 /* Check Pods Manifest.lock */ = {
@@ -232,8 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D937BCD901230F50B92132 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
-				35D93467C2F965BD855DBF6A /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
+				F18024A91A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
+				F18024A71A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18024AA1A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
+				F18024A81A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +315,10 @@
 		};
 		35D938DC094EABFFAF36C81D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE48F9C09CC74C9F9A431905 /* Pods.xcconfig */;
+			baseConfigurationReference = 7674D3274E63CD2788FA9998 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AFNetworking_AutoRetry.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AFNetworking-AutoRetry/AFNetworking-AutoRetry-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -317,11 +328,10 @@
 		};
 		35D93CBBB38C1BAE1225B8AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE48F9C09CC74C9F9A431905 /* Pods.xcconfig */;
+			baseConfigurationReference = AC50009BB495E68699572B50 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AFNetworking_AutoRetry.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AFNetworking-AutoRetry/AFNetworking-AutoRetry-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -391,6 +401,7 @@
 				35D938DC094EABFFAF36C81D /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35D937547C3123256E75348F /* Build configuration list for PBXProject "AFNetworking-AutoRetry" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				35D93D7DEB953CD2835E2D8F /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
