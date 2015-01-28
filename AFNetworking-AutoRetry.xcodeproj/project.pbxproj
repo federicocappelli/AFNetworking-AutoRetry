@@ -12,10 +12,8 @@
 		35D93D765BB37E25F0C477E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D939A26664FAFE30C01907 /* UIKit.framework */; };
 		35D93DF0E51C7F46D8069429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93BD14242A0522AC0FE7A /* Foundation.framework */; };
 		ECAFE1AED0034D5080F67E53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135D125C62044819695FCA7 /* libPods.a */; };
-		F18024A71A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */; };
-		F18024A81A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */; };
-		F18024A91A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */; };
-		F18024AA1A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */; };
+		F119E3741A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F119E3711A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.m */; };
+		F119E3751A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = F119E3731A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +48,10 @@
 		7135D125C62044819695FCA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7674D3274E63CD2788FA9998 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AC50009BB495E68699572B50 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F18024A21A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+AutoRetry.h"; sourceTree = "<group>"; };
-		F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+AutoRetry.m"; sourceTree = "<group>"; };
-		F18024A41A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = "<group>"; };
-		F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = "<group>"; };
+		F119E3701A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+AutoRetry.h"; sourceTree = "<group>"; };
+		F119E3711A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+AutoRetry.m"; sourceTree = "<group>"; };
+		F119E3721A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = "<group>"; };
+		F119E3731A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,10 @@
 		35D93F36B199968C936F7B4B = {
 			isa = PBXGroup;
 			children = (
-				F18024A11A7932EF00FC95F7 /* AFNetworking+AutoRetry */,
+				F119E3701A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.h */,
+				F119E3711A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.m */,
+				F119E3721A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.h */,
+				F119E3731A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.m */,
 				35D93E6FB6E91AC2D2BD1D47 /* Products */,
 				35D93219FD355F7D2EF130F2 /* Frameworks */,
 				35D93B5F475C87CD9CACC72F /* LICENSE */,
@@ -117,17 +118,6 @@
 				35D9383FF1FD8220D3D4A3E7 /* Podfile */,
 				2F40478C8C0AD296D874D69D /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		F18024A11A7932EF00FC95F7 /* AFNetworking+AutoRetry */ = {
-			isa = PBXGroup;
-			children = (
-				F18024A21A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.h */,
-				F18024A31A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m */,
-				F18024A41A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.h */,
-				F18024A51A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m */,
-			);
-			path = "AFNetworking+AutoRetry";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18024A91A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
-				F18024A71A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
+				F119E3751A79369E006541F6 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
+				F119E3741A79369E006541F6 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18024AA1A7932EF00FC95F7 /* AFHTTPSessionManager+AutoRetry.m in Sources */,
-				F18024A81A7932EF00FC95F7 /* AFHTTPRequestOperationManager+AutoRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

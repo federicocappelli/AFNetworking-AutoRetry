@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    add retries to the requests. you can specify the number of retries, and when they are reached
                    your failure block is called (instead of at the first time using only AFNetworking)
   DESC
-  s.homepage     = 'https://github.com/shaioz/AFNetworking-AutoRetry'
+  s.homepage     = 'https://github.com/federicocappelli/AFNetworking-AutoRetry'
   s.license      = 'MIT'
   s.author       = { "Shai Ohev Zion" => "github@shaioz.com" }
   s.source       = { :git => 'https://github.com/federicocappelli/AFNetworking-AutoRetry.git',
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.requires_arc = true
 
-  s.source_files = 'AFNetworking+AutoRetry/*.{h,m}'
+  s.source_files = '*.{h,m}'
 
-  s.dependency 'AFNetworking', '~> 2'
+  s.dependency 'AFNetworking'
   s.dependency 'ObjcAssociatedObjectHelpers'
   s.dependency 'CocoaLumberjack'
 end
